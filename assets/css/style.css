@@ -186,7 +186,7 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #000;
     letter-spacing: 1.5px;
@@ -199,7 +199,7 @@ h4 a,
 h5 a,
 h6 a {
     font-weight: inherit;
-    font-family: Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -237,7 +237,7 @@ h6 {
 }
 
 p {
-    font-family: Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: normal;
     letter-spacing: 0;
@@ -250,7 +250,7 @@ p img {
 }
 
 span {
-    font-family: Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -275,7 +275,7 @@ small {
 
 blockquote {
     border-left: 0 none;
-    font-family: Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 10px 0;
     padding-left: 40px;
     position: relative;
@@ -337,7 +337,7 @@ abbr:hover {
 a,
 a:visited {
     text-decoration: none;
-    font-family: Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 12px;
     color: #111;
@@ -508,10 +508,10 @@ button {}
 .profile-img img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     display: inline-block;
     border: 1px solid #63707e96;
-    padding: 10px;
+    padding: 3px;
 }
 
 .personal-basic-info h2 {
@@ -707,6 +707,9 @@ button {}
     color: #48bd4d !important;
     text-decoration: underline;
 }
+.text-green{
+    color: #48bd4d !important;
+}
 .item-status a {
     font-size: 16px!important;
     font-weight: 400 !important;
@@ -726,7 +729,9 @@ button {}
 .section-footer p a {
     text-decoration: underline;
 }
-
+.signature-section {
+    margin-top: 150px;
+}
 
 /* right said Page css End. */
 
