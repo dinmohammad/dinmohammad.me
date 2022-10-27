@@ -700,6 +700,9 @@ button {}
     left: 5px;
     top: 12px;
 }
+.item-box:nth-child(3):before {
+    background: none !important;
+}
 .item-box:nth-last-child(1):before{
     background: none !important;
 }
