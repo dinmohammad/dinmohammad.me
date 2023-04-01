@@ -703,7 +703,14 @@ button {}
 .item-box:nth-child(3):before {
     background: none !important;
 }
+
 .item-box:nth-last-child(1):before{
+    background: none !important;
+}
+.item-box:nth-last-child(1){
+    padding-bottom: 0 !important;
+}
+.no-before::before {
     background: none !important;
 }
 .text-live{
