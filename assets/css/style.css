@@ -3,7 +3,7 @@
     Template Name: 
     Template URI: 
     Description: This is html5 template
-    Author: S M Shahadat Hossain
+    Author: Din Mohammad
     Author URI: 
     Version: 1.0
 
@@ -700,9 +700,9 @@ button {}
     left: 5px;
     top: 12px;
 }
-.item-box:nth-child(3):before {
+/* .item-box:nth-child(3):before {
     background: none !important;
-}
+} */
 
 .item-box:nth-last-child(1):before{
     background: none !important;
